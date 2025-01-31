@@ -8,7 +8,7 @@ Este é um projeto de controle de semáforo usando o microcontrolador **Raspberr
 
 1. **Raspberry Pi Pico**
 2. **3 LEDs** (vermelho, amarelo e verde)
-3. **Resistores** (220Ω para cada LED)
+3. **Resistores** (330Ω para cada LED)
 4. **Jumpers** e **protoboard** para conexões
 5. **Cabos USB** para alimentação e programação
 
@@ -20,9 +20,9 @@ Conecte os LEDs aos GPIOs da seguinte forma:
 
 | Cor do LED      | Pino GPIO | Resistor |
 |------------------|-----------|----------|
-| Vermelho        | 13        | 220Ω     |
-| Amarelo         | 12        | 220Ω     |
-| Verde           | 11        | 220Ω     |
+| Vermelho        | 13        | 330Ω     |
+| Amarelo         | 12        | 330Ω     |
+| Verde           | 11        | 330Ω     |
 
 1. Conecte o **ânodo** (perna longa) de cada LED ao pino GPIO correspondente.
 2. Conecte o **cátodo** (perna curta) de cada LED ao resistor de 220Ω.
