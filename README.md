@@ -25,7 +25,7 @@ Conecte os LEDs aos GPIOs da seguinte forma:
 | Verde           | 11        | 330Ω     |
 
 1. Conecte o **ânodo** (perna longa) de cada LED ao pino GPIO correspondente.
-2. Conecte o **cátodo** (perna curta) de cada LED ao resistor de 220Ω.
+2. Conecte o **cátodo** (perna curta) de cada LED ao resistor de 330Ω.
 3. Conecte o outro terminal do resistor ao **GND** (terra) do Pico.
 
 ---
